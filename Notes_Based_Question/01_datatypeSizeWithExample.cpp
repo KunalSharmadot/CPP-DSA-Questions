@@ -9,7 +9,7 @@ int main()
     short int b = 20;
     long int c = 30;
     long long int d = 40;
-    unsigned int e = -1;    // Only holding a positive value
+    unsigned int e = -51;    // Only holding a positive value
     signed int f = -10;     // this is default in (int) datatype
     std::cout << "\nInteger datatype :- \n";
     std::cout << "int : " << a << " and size : " << sizeof(a) << std::endl;
