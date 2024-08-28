@@ -77,7 +77,7 @@ int main()
     // In XOR : alternative bit value of both integer become 1.
     std::cout << "\nBitwise XOR : " << (n1 ^ n2);
     // Left Shift Operator : shifted left by no. of bits position.
-    // (initial_value * 2_power_shiftingleft by 1 bit) == positional Yeild.
+    // (initial_value * 2_power_shiftingleft by No. of bits) == positional Yeild.
     std::cout << "\nLeft Shift Operator : " << (n1 << 1);
     // Right Shift Operator : inserted from right side and drop from left side.
     std::cout << "\nRight Shift Operator : " << (n1 >> 2);
