@@ -11,10 +11,11 @@ int main() {
     float result;
     result = a+b/--c+a%b;
     cout << "a+b/--c+a%b = " << result << "\n";
-    return 0;
 
     f = solve(a1, b1, c1, d, e);
     // so we get 2
     cout << f << "\n";
+
+    return 0;
     
 }

@@ -7,10 +7,14 @@ typedef enum color{red, blue, green}color1;
 using col1 = enum color3{r, gren, blu};
 int main()
 {
+    emotion feeling;
+    feeling = happy;
+
     color1 col;
     col = green;
+    
     col1 c;
     c = gren;
-    std::cout << col << "\n" << c;
+    std::cout << feeling << "\n" << col << "\n" << c;
     return 0;
 }
