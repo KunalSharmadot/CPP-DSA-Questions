@@ -3,7 +3,8 @@ using namespace std;
 
 int main() {
 
-    int a = 2, b = 3;
+    int a = 2;
+    int b = 3;
     // Expression : Those expression which not end with semi-colon
     // Statement : Those expression which end with semi-colon
     // Block : Multiple statement make a block or compound statement
